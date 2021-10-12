@@ -2,11 +2,18 @@ package Modelo;
 
 public class Produto {
 
-    private String Nome ;
+    private String Nome;
     private int Codigo;
     private int Valor;
     private int QuantidadeEmEstoque;
-   
+
+    public Produto(String nome, int codigo, int valor, int quantidadeEmEstoque) {
+        Nome = nome;
+        Codigo = codigo;
+        Valor = valor;
+        QuantidadeEmEstoque = quantidadeEmEstoque;
+    }
+
     public String getNome() {
         return Nome;
     }

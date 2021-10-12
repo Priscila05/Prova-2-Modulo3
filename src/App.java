@@ -1,6 +1,7 @@
 public class App {
     public static void main(String[] args) throws Exception { 
         
+        
         Scanner in = new Scanner(System.in);
         do {
             System.out.println("\n****\nMENU\n****\n");
@@ -16,7 +17,23 @@ public class App {
             in.nextLine(); 
 
             if (opcao == 1) {
-                    System.out.println("\nNão há espaço para cadastrar novos pilotos.");
+
+                Produto produto= new Produto();
+                   
+                System.out.println("Informe o nome: ");
+                Produto.setNome(in.nextLine());
+
+                System.out.println("Informe o codigo: ");
+                Produto.setCodigo(in.nextLine());
+
+                System.out.println("Informe o valor: ");
+                Produto.setValor(in.nextLine());
+
+                System.out.println("Informe a quantidade em estoque: ");
+                Produto.setQuantidadeemestoque(in.nextLine());
+
+
+
                     voltarMenu(in);
                     continue;
                 }
