@@ -38,6 +38,11 @@ public class Produto {
     public void setQuantidadeemestoque(int quantidadeemestoque) {
         QuantidadeEmEstoque = quantidadeemestoque;
     }
+
+    @Override
+    public String toString() {
+        return "Produto [Codigo=" + Codigo + ", Nome=" + Nome + ", QuantidadeEmEstoque=" + QuantidadeEmEstoque
+                + ", Valor=" + Valor + "]";
 }
     
 
