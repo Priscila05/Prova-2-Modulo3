@@ -10,9 +10,9 @@ public class App {
         Scanner in = new Scanner(System.in);
         do {
             System.out.println("\n****\nMENU\n****\n");
-            System.out.println("1 - Incluir produto ");  ok
+            System.out.println("1 - Incluir produto ");
             System.out.println("2 - Consultar produto ");
-            System.out.println("3 - Listagem de produtos "); ok
+            System.out.println("3 - Listagem de produtos ");
             System.out.println("4 - Vendas por periodo - detalhado ");
             System.out.println("5 - Realizar venda ");
             System.out.println("0 - Sair ");
